@@ -34,7 +34,9 @@
   },
   "name":"DungeonAcademy",
   "resources":[
+    {"id":{"name":"oMonster3","path":"objects/oMonster3/oMonster3.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sMonster3","path":"sprites/sMonster3/sMonster3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
