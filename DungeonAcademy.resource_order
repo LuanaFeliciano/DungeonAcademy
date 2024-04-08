@@ -18,12 +18,14 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obutton_parent","order":1,"path":"objects/obutton_parent/obutton_parent.yy",},
-    {"name":"oButtonStart","order":4,"path":"objects/oButtonStart/oButtonStart.yy",},
     {"name":"oButtonExit","order":5,"path":"objects/oButtonExit/oButtonExit.yy",},
+    {"name":"oButtonStart","order":4,"path":"objects/oButtonStart/oButtonStart.yy",},
     {"name":"oTitle","order":3,"path":"objects/oTitle/oTitle.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"oBackground","order":2,"path":"sprites/oBackground/oBackground.yy",},
+    {"name":"sMonster1","order":4,"path":"sprites/sMonster1/sMonster1.yy",},
     {"name":"spr_button","order":3,"path":"sprites/spr_button/spr_button.yy",},
+    {"name":"sMonster2","order":5,"path":"sprites/sMonster2/sMonster2.yy",},
     {"name":"sTitle","order":1,"path":"sprites/sTitle/sTitle.yy",},
   ],
 }
