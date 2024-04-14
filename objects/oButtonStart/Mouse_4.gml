@@ -5,5 +5,5 @@
 event_inherited();
 
 //ir pra sala 2 quando clicar no botao
-room_goto(Room2)
+room_goto(room2)
 

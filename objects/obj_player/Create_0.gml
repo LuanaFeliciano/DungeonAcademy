@@ -1,1 +1,7 @@
-spd = 5;
+spd = 5
+
+
+//criando transição porta
+
+
+
