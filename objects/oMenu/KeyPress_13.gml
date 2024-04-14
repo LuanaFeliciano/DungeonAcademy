@@ -1,5 +1,5 @@
 if(index == 0){
-	room_goto(Room2)
+	room_goto(Lobby)
 }
 
 if(index == 1){
