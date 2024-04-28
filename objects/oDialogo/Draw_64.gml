@@ -1,4 +1,3 @@
-
 if(inicializar == true){
 	var __text_x = 50;
 	var __text_y = 18;
