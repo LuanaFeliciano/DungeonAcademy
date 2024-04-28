@@ -1,29 +1,103 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_textos(){
 	switch npc_nome{
 		case "Caveira":
-			ds_grid_add_text("O que você está fazendo aqui mero mortal?",s_caveira_photo,0,"Caveira");
-			ds_grid_add_text("Está preparado para as perguntas?",s_caveira_photo,0,"Caveira");
-			ds_grid_add_text("Quem veio primeiro? o ovo ou a galinha?",s_caveira_photo,0,"Caveira");
+		    ds_grid_add_text("Bem-vindo ao desafio de programação!", sCaveiraFace, 0,"pergunta", "Caveira");
+		    ds_grid_add_text("Qual destes é um paradigma de programação?", sCaveiraFace, 0,"pergunta", "Caveira");
+
+		    add_op("Orientação a Objetos", "OOP");
+		    add_op("Futebol", "Futebol");
+		    add_op("Refrigerante", "Refrigerante");
+		break;
+
+		case "OOP":
+		    ds_grid_add_text("Eu escolho Orientação a Objetos", sMaleFace, 0,"resposta", "Player");
+		    ds_grid_add_text("Você Acertou!", sCaveiraFace, 0,"respostaMonster", "Caveira");
+		break;
+
+		case "Futebol":
+		    ds_grid_add_text("Eu escolho Futebol", sMaleFace, 0,"resposta", "Player");
+		    ds_grid_add_text("Você Errou! Você realmente pensou que futebol fosse um paradigma de programação?!", sCaveiraFace, 0,"respostaMonster", "Caveira");
+		break;
+
+		case "Refrigerante":
+		    ds_grid_add_text("Eu escolho Refrigerante", sMaleFace, 0,"resposta", "Player");
+		    ds_grid_add_text("Você Errou! Acho que você está com sede...", sCaveiraFace, 0,"respostaMonster", "Caveira");
+		break;
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		
-				add_op("Ovo", "Resposta 1");
-				add_op("Galinha", "Resposta 2");
-				add_op("Borba", "Resposta 3");
+		case "Goblin":
+		    ds_grid_add_text("Bem-vindo ao desafio tecnológico!", sGoblinFace, 0,"pergunta", "Goblin");
+		    ds_grid_add_text("Qual destes é um protocolo de comunicação de rede?", sGoblinFace, 0,"pergunta", "Goblin");
+
+		    add_op("TCP", "TCP");
+		    add_op("HTTP", "HTTP");
+		    add_op("FTP", "FTP");
+		break;
+
+			case "TCP":
+			    ds_grid_add_text("Eu escolho TCP", sMaleFace, 0,"resposta", "Player");
+			    ds_grid_add_text("Você Acertou!", sGoblinFace, 0,"respostaMonster", "Goblin");
 			break;
-		
-			case "Resposta 1":
-				ds_grid_add_text("Eu escolho o ovo",s_caveira_photo,0,"Caveira"); //mudar pra imagem do playe 
-				ds_grid_add_text("Você Errou!",s_caveira_photo,0,"Caveira");
+
+			case "HTTP":
+			    ds_grid_add_text("Eu escolho HTTP", sMaleFace, 0,"resposta", "Player");
+			    ds_grid_add_text("Você Errou! Mas pelo menos você não foi para o FTP!", sGoblinFace, 0,"respostaMonster", "Goblin");
 			break;
-			case "Resposta 2":
-				ds_grid_add_text("Eu escolho a galinha",s_caveira_photo,0,"Player");
-				ds_grid_add_text("Você Errou!",s_caveira_photo,0,"Caveira");
+
+			case "FTP":
+			    ds_grid_add_text("Eu escolho FTP", sMaleFace, 0,"resposta", "Player");
+			    ds_grid_add_text("Você Errou e foi muito lerdão de escolher FTP!  ", sGoblinFace, 0,"respostaMonster", "Goblin");
 			break;
-			case "Resposta 3":
-				ds_grid_add_text("Eu escolho o Borba",s_caveira_photo,0,"Player");
-				ds_grid_add_text("Você Acertou!",s_caveira_photo,0,"Caveira");
+			
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+			case "Cérebro":
+			    ds_grid_add_text("Bem-vindo ao desafio de engenharia de software!", sCerebroFace, 0,"pergunta", "Cérebro");
+			    ds_grid_add_text("Qual destes é um exemplo de requisito não funcional?", sCerebroFace, 0,"pergunta", "Cérebro");
+
+			    add_op("Desempenho do sistema", "Desempenho");
+			    add_op("Funcionalidade de login", "Login");
+			    add_op("Funcionalidade de salvar dados", "Salvar");
 			break;
+
+				case "Desempenho":
+				    ds_grid_add_text("Eu escolho Desempenho do sistema", sFemaleFace,"resposta", 0, "Player");
+				    ds_grid_add_text("Você Acertou!", sCerebroFace, 0,"respostaMonster", "Cérebro");
+				break;
+
+				case "Login":
+				    ds_grid_add_text("Eu escolho Funcionalidade de login", sFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Você Errou feio agora em! Mas pelo menos não foi uma funcionalidade de salvar...", sCerebroFace, 0,"respostaMonster", "Cérebro");
+				break;
+
+				case "Salvar":
+				    ds_grid_add_text("Eu escolho Funcionalidade de salvar dados", sFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Você Errou! Salvando o dia com respostas erradas...", sCerebroFace, 0,"respostaMonster", "Cérebro");
+				break;
+				
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////			
+			case "Lava":
+			    ds_grid_add_text("Bem-vindo ao desafio de redes!", sLavaFace, 0,"pergunta", "Lava");
+			    ds_grid_add_text("Qual destes é um tipo de tecnologia de comunicação sem fio?", sLavaFace, 0,"pergunta", "Lava");
+
+			    add_op("Bluetooth", "Bluetooth");
+			    add_op("USB", "USB");
+			    add_op("HDMI", "HDMI");
+			break;
+
+				case "Bluetooth":
+				    ds_grid_add_text("Eu escolho Bluetooth", sFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Você Acertou! O Bluetooth é uma tecnologia de comunicação sem fio.", sLavaFace, 0,"respostaMonster", "Lava");
+				break;
+
+				case "USB":
+				    ds_grid_add_text("Eu escolho USB", sFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Você Errou! USB é uma tecnologia de conexão com fio. Você nunca carregou seu celular?", sLavaFace, 0,"respostaMonster", "Lava");
+				break;
+
+				case "HDMI":
+				    ds_grid_add_text("Eu escolho HDMI", sFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Você Errou! HDMI é uma interface de vídeo, não uma tecnologia de comunicação sem fio. Você está nos tempos das cavernas? Porque está parecendo", sLavaFace, 0,"respostaMonster", "Lava");
+				break;
 			
 	}
 }
@@ -48,6 +122,7 @@ function ds_grid_add_text(){
 	_grid[# 1, _y] = argument[1];
 	_grid[# 2, _y] = argument[2];
 	_grid[# 3, _y] = argument[3];
+	_grid[# 4, _y] = argument[4];
 }
 
 function add_op(_texto, _resposta){

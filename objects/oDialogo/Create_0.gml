@@ -4,7 +4,8 @@
 enum Infos{
 	Textos,
 	Retrato,
-	Lado,
+	Acertou,
+	Tipo,
 	Nome
 }
 npc_nome = "";
