@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oMonster4",
+  "%Name":"oMonster1",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oMonster4",
+  "name":"oMonster1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMonster4",
-    "path":"sprites/sMonster4/sMonster4.yy",
+    "name":"sMonster1",
+    "path":"sprites/sMonster1/sMonster1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

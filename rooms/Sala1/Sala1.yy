@@ -19,10 +19,15 @@
     {"name":"inst_3E3727B2_1","path":"rooms/Sala1/Sala1.yy",},
     {"name":"inst_4A86B605_1","path":"rooms/Sala1/Sala1.yy",},
     {"name":"room1_enter0","path":"rooms/Sala1/Sala1.yy",},
+    {"name":"inst_5A02FD2C","path":"rooms/Sala1/Sala1.yy",},
+    {"name":"inst_8610D73","path":"rooms/Sala1/Sala1.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Dialogo","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Dialogo","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Dialogo","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"","%Name":"inst_5A02FD2C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A02FD2C","objectId":{"name":"oMonster4","path":"objects/oMonster4/oMonster4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.35999998,"scaleY":0.35999998,"x":864.0,"y":224.0,},
+        {"$GMRInstance":"","%Name":"inst_8610D73","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_8610D73","objectId":{"name":"oMonster2","path":"objects/oMonster2/oMonster2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.31428573,"scaleY":0.31428573,"x":128.0,"y":192.0,},
+      ],"layers":[],"name":"Dialogo","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_3","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"room1_enter0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"room1_enter0","objectId":{"name":"oEnter","path":"objects/oEnter/oEnter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":449.4749,"scaleX":0.3129412,"scaleY":0.6130287,"x":928.0,"y":192.0,},
       ],"layers":[],"name":"Instances_3","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
