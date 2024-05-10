@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oWall",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oMorcego1",
+  "eventList":[],
   "managed":true,
-  "name":"oWall",
+  "name":"oMorcego1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,14 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
+    "name":"sMorcego1",
+    "path":"sprites/sMorcego1/sMorcego1.yy",
   },
-  "spriteMaskId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

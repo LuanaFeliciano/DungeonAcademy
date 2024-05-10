@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oWall",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oWallBarril",
+  "eventList":[],
   "managed":true,
-  "name":"oWall",
+  "name":"oWallBarril",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,12 +28,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
+    "name":"sWallBarril",
+    "path":"sprites/sWallBarril/sWallBarril.yy",
   },
-  "spriteMaskId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
-  },
-  "visible":true,
+  "spriteMaskId":null,
+  "visible":false,
 }
