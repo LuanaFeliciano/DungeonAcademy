@@ -13,7 +13,6 @@
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -30,7 +29,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"DungeonAcademy",
   "resources":[
@@ -66,6 +65,7 @@
     {"id":{"name":"sBackgroundDialogo","path":"sprites/sBackgroundDialogo/sBackgroundDialogo.yy",},},
     {"id":{"name":"sCaveiraFace","path":"sprites/sCaveiraFace/sCaveiraFace.yy",},},
     {"id":{"name":"sCerebroFace","path":"sprites/sCerebroFace/sCerebroFace.yy",},},
+    {"id":{"name":"sCogumeloVer1","path":"sprites/sCogumeloVer1/sCogumeloVer1.yy",},},
     {"id":{"name":"sEscolha","path":"sprites/sEscolha/sEscolha.yy",},},
     {"id":{"name":"sFemaleFace","path":"sprites/sFemaleFace/sFemaleFace.yy",},},
     {"id":{"name":"sFontBitmap","path":"sprites/sFontBitmap/sFontBitmap.yy",},},
@@ -85,7 +85,6 @@
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},},
     {"id":{"name":"Sprite26","path":"sprites/Sprite26/Sprite26.yy",},},
-    {"id":{"name":"sCogumeloVer1","path":"sprites/sCogumeloVer1/sCogumeloVer1.yy",},},
     {"id":{"name":"sSeta","path":"sprites/sSeta/sSeta.yy",},},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},},
     {"id":{"name":"TileGround","path":"tilesets/TileGround/TileGround.yy",},},
