@@ -1,4 +1,13 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"sBossSong","order":2,"path":"sounds/sBossSong/sBossSong.yy",},
+    {"name":"sHit","order":8,"path":"sounds/sHit/sHit.yy",},
+    {"name":"sLoseTheme","order":5,"path":"sounds/sLoseTheme/sLoseTheme.yy",},
+    {"name":"sRightAnswer","order":6,"path":"sounds/sRightAnswer/sRightAnswer.yy",},
+    {"name":"sThemeRoom","order":1,"path":"sounds/sThemeRoom/sThemeRoom.yy",},
+    {"name":"sWalk","order":3,"path":"sounds/sWalk/sWalk.yy",},
+    {"name":"sWinTheme","order":4,"path":"sounds/sWinTheme/sWinTheme.yy",},
+    {"name":"sWrongAnswer","order":7,"path":"sounds/sWrongAnswer/sWrongAnswer.yy",},
+  ],
 }
