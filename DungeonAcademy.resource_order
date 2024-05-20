@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"SalaProd_3","order":1,"path":"rooms/SalaProd_3/SalaProd_3.yy",},
     {"name":"sBossSong","order":2,"path":"sounds/sBossSong/sBossSong.yy",},
     {"name":"sHit","order":8,"path":"sounds/sHit/sHit.yy",},
     {"name":"sLoseTheme","order":5,"path":"sounds/sLoseTheme/sLoseTheme.yy",},
@@ -9,5 +10,10 @@
     {"name":"sWalk","order":3,"path":"sounds/sWalk/sWalk.yy",},
     {"name":"sWinTheme","order":4,"path":"sounds/sWinTheme/sWinTheme.yy",},
     {"name":"sWrongAnswer","order":7,"path":"sounds/sWrongAnswer/sWrongAnswer.yy",},
+    {"name":"sBack3","order":1,"path":"sprites/sBack3/sBack3.yy",},
+    {"name":"sCachoeira","order":3,"path":"sprites/sCachoeira/sCachoeira.yy",},
+    {"name":"Sprite56","order":2,"path":"sprites/Sprite56/Sprite56.yy",},
+    {"name":"Sprite58","order":4,"path":"sprites/Sprite58/Sprite58.yy",},
+    {"name":"sTanque1","order":5,"path":"sprites/sTanque1/sTanque1.yy",},
   ],
 }
