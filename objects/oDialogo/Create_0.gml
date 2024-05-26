@@ -4,12 +4,13 @@
 enum Infos{
 	Textos,
 	Retrato,
+	Animacao_Retrato,
 	Acertou,
 	Tipo,
 	Nome
 }
 npc_nome = "";
-textos_grid = ds_grid_create(4,0);
+textos_grid = ds_grid_create(5,0);
 pagina = 0;
 
 op[0] = "";
@@ -23,3 +24,4 @@ inicializar = false
 
 caractere = 0;
 alarm[0] = 1;
+

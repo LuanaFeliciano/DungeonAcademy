@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object41",
+  "%Name":"oCaveiraFace",
   "eventList":[],
   "managed":true,
-  "name":"Object41",
+  "name":"oCaveiraFace",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sCaveiraFace",
+    "path":"sprites/sCaveiraFace/sCaveiraFace.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
