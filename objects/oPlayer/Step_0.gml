@@ -13,7 +13,7 @@ if keyboard_check(ord("D")) & place_free(x+col,y){
 
 #region
 if distance_to_object(oParNpcs) <= 10{ //tem algum npc perto?
-	if  keyboard_check_pressed(ord("F")){ //se tiver e eu apertar f
+	if  keyboard_check_pressed(ord("F")) and global.dialogo == false{ //se tiver e eu apertar f
 		var _npc = instance_nearest(x,y, oParNpcs); //acha o npc proximo e pega instancia dele
 		var _dialogo = instance_create_layer(x,y,"Dialogo",oDialogo);
 		_dialogo.npc_nome = _npc.nome;
