@@ -17,11 +17,13 @@ function scr_textos(){
 		case "Futebol":
 		    ds_grid_add_text("Eu escolho Futebol", sMaleFace,oMaleFace, 0,"resposta", "Player");
 		    ds_grid_add_text("Você Errou! Você realmente pensou que futebol fosse um paradigma de programação?!", sCaveiraFace,oCaveiraFace, 0,"respostaMonster", "Caveira");
+			oPlayer.vida = oPlayer.vida - 0.25;
 		break;
 
 		case "Refrigerante":
 		    ds_grid_add_text("Eu escolho Refrigerante", sMaleFace,oMaleFace, 0,"resposta", "Player");
 		    ds_grid_add_text("Você Errou! Acho que você está com sede...", sCaveiraFace,oCaveiraFace, 0,"respostaMonster", "Caveira");
+			oPlayer.vida = oPlayer.vida - 0.25;
 		break;
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		
@@ -42,11 +44,13 @@ function scr_textos(){
 			case "HTTP":
 			    ds_grid_add_text("Eu escolho HTTP", sMaleFace,oMaleFace, 0,"resposta", "Player");
 			    ds_grid_add_text("Você Errou! Mas pelo menos você não foi para o FTP!", sGoblinFace,oGoblinFace, 0,"respostaMonster", "Goblin");
+				oPlayer.vida = oPlayer.vida - 0.5;
 			break;
 
 			case "FTP":
 			    ds_grid_add_text("Eu escolho FTP", sMaleFace,oMaleFace, 0,"resposta", "Player");
 			    ds_grid_add_text("Você Errou e foi muito lerdão de escolher FTP!  ", sGoblinFace,oGoblinFace, 0,"respostaMonster", "Goblin");
+				oPlayer.vida = oPlayer.vida - 0.5;
 			break;
 			
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -67,11 +71,13 @@ function scr_textos(){
 				case "Login":
 				    ds_grid_add_text("Eu escolho Funcionalidade de login", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Errou feio agora em! Mas pelo menos não foi uma funcionalidade de salvar...", sCerebroFace,oCerebroFace, 0,"respostaMonster", "Cérebro");
+					oPlayer.vida = oPlayer.vida - 0.75;
 				break;
 
 				case "Salvar":
 				    ds_grid_add_text("Eu escolho Funcionalidade de salvar dados", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Errou! Salvando o dia com respostas erradas...", sCerebroFace,oCerebroFace, 0,"respostaMonster", "Cérebro");
+					oPlayer.vida = oPlayer.vida - 0.75;
 				break;
 				
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////			
@@ -92,11 +98,13 @@ function scr_textos(){
 				case "USB":
 				    ds_grid_add_text("Eu escolho USB", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Errou! USB é uma tecnologia de conexão com fio. Você nunca carregou seu celular?", sLavaFace,oLavaFace, 0,"respostaMonster", "Lava");
+					oPlayer.vida = oPlayer.vida - 1.5;
 				break;
 
 				case "HDMI":
 				    ds_grid_add_text("Eu escolho HDMI", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Errou! HDMI é uma interface de vídeo, não uma tecnologia de comunicação sem fio. Você está nos tempos das cavernas? Porque está parecendo", sLavaFace,oLavaFace, 0,"respostaMonster", "Lava");
+					oPlayer.vida = oPlayer.vida - 1.5;
 				break;
 			
 	}
