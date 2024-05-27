@@ -20,3 +20,5 @@ if distance_to_object(oParNpcs) <= 10{ //tem algum npc perto?
 	}
 }
 #endregion
+
+roda_estado();

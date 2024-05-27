@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite11",
-    "path":"sprites/Sprite11/Sprite11.yy",
+    "name":"sMaleStand",
+    "path":"sprites/sMaleStand/sMaleStand.yy",
   },
   "spriteMaskId":null,
   "visible":true,

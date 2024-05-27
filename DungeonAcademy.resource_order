@@ -1,5 +1,7 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Player","order":22,"path":"folders/Sprites/Player.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"oArvoreMorta1","order":10,"path":"objects/oArvoreMorta1/oArvoreMorta1.yy",},
     {"name":"oCampo1","order":4,"path":"objects/oCampo1/oCampo1.yy",},
@@ -24,6 +26,7 @@
     {"name":"oTentaculo1","order":3,"path":"objects/oTentaculo1/oTentaculo1.yy",},
     {"name":"SalaProd_3","order":1,"path":"rooms/SalaProd_3/SalaProd_3.yy",},
     {"name":"SalaProd_4","order":2,"path":"rooms/SalaProd_4/SalaProd_4.yy",},
+    {"name":"Script3","order":1,"path":"scripts/Script3/Script3.yy",},
     {"name":"sBossSong","order":2,"path":"sounds/sBossSong/sBossSong.yy",},
     {"name":"sHit","order":8,"path":"sounds/sHit/sHit.yy",},
     {"name":"sLoseTheme","order":5,"path":"sounds/sLoseTheme/sLoseTheme.yy",},
@@ -38,9 +41,11 @@
     {"name":"sCachoeira","order":3,"path":"sprites/sCachoeira/sCachoeira.yy",},
     {"name":"sCampo1","order":9,"path":"sprites/sCampo1/sCampo1.yy",},
     {"name":"sCarro1","order":10,"path":"sprites/sCarro1/sCarro1.yy",},
+    {"name":"sFemaleStand","order":23,"path":"sprites/sFemaleStand/sFemaleStand.yy",},
     {"name":"sGeiser","order":14,"path":"sprites/sGeiser/sGeiser.yy",},
     {"name":"sGeiser2","order":15,"path":"sprites/sGeiser2/sGeiser2.yy",},
     {"name":"sGosma1","order":6,"path":"sprites/sGosma1/sGosma1.yy",},
+    {"name":"sMaleWalk","order":1,"path":"sprites/sMaleWalk/sMaleWalk.yy",},
     {"name":"sPedraG_Fogo2","order":12,"path":"sprites/sPedraG_Fogo2/sPedraG_Fogo2.yy",},
     {"name":"sPorta1","order":19,"path":"sprites/sPorta1/sPorta1.yy",},
     {"name":"sPorta2","order":20,"path":"sprites/sPorta2/sPorta2.yy",},
