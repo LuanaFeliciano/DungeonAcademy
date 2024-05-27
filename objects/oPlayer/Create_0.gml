@@ -1,2 +1,2 @@
-spd = 5;
+spd = 4;
 col = spd + 0;

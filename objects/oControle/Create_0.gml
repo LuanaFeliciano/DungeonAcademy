@@ -2,4 +2,5 @@
 // You can write your code in this editor
 
 global.dialogo = false;
-global.tecla = -1;
+global.pontuacao = 0;
+global.pontoAdicionado = false;
