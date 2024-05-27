@@ -14,6 +14,7 @@
     {"name":"oGosma1","order":1,"path":"objects/oGosma1/oGosma1.yy",},
     {"name":"oLavaFace","order":16,"path":"objects/oLavaFace/oLavaFace.yy",},
     {"name":"oMaleFace","order":14,"path":"objects/oMaleFace/oMaleFace.yy",},
+    {"name":"oMusicaBoss","order":21,"path":"objects/oMusicaBoss/oMusicaBoss.yy",},
     {"name":"oPorta1","order":17,"path":"objects/oPorta1/oPorta1.yy",},
     {"name":"oPorta2","order":18,"path":"objects/oPorta2/oPorta2.yy",},
     {"name":"oPorta3","order":19,"path":"objects/oPorta3/oPorta3.yy",},
