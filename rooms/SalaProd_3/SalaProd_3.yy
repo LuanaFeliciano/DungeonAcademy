@@ -33,7 +33,6 @@
     {"name":"inst_3A419832","path":"rooms/SalaProd_3/SalaProd_3.yy",},
     {"name":"inst_4BCE9B90","path":"rooms/SalaProd_3/SalaProd_3.yy",},
     {"name":"inst_5DB3CD8","path":"rooms/SalaProd_3/SalaProd_3.yy",},
-    {"name":"inst_145529AF","path":"rooms/SalaProd_3/SalaProd_3.yy",},
     {"name":"inst_3B8A3873","path":"rooms/SalaProd_3/SalaProd_3.yy",},
   ],
   "isDnd":false,
@@ -67,7 +66,6 @@
         {"$GMRInstance":"","%Name":"inst_2CDFBCD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":12,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CDFBCD5","objectId":{"name":"oTanque1","path":"objects/oTanque1/oTanque1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":302.0,"y":229.0,},
         {"$GMRInstance":"","%Name":"inst_38D0D212","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38D0D212","objectId":{"name":"oCampo1","path":"objects/oCampo1/oCampo1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":422.0,"y":64.0,},
         {"$GMRInstance":"","%Name":"inst_25E92670","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25E92670","objectId":{"name":"oCarro1","path":"objects/oCarro1/oCarro1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":403.0,"y":19.0,},
-        {"$GMRInstance":"","%Name":"inst_145529AF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_145529AF","objectId":{"name":"oControle","path":"objects/oControle/oControle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":128.0,},
         {"$GMRInstance":"","%Name":"inst_3B8A3873","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B8A3873","objectId":{"name":"oPorta3","path":"objects/oPorta3/oPorta3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":224.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Dialogo","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
