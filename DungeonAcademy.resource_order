@@ -40,6 +40,8 @@
     {"name":"sGeiser2","order":15,"path":"sprites/sGeiser2/sGeiser2.yy",},
     {"name":"sGosma1","order":6,"path":"sprites/sGosma1/sGosma1.yy",},
     {"name":"sPedraG_Fogo2","order":12,"path":"sprites/sPedraG_Fogo2/sPedraG_Fogo2.yy",},
+    {"name":"sPorta1","order":19,"path":"sprites/sPorta1/sPorta1.yy",},
+    {"name":"sPorta2","order":20,"path":"sprites/sPorta2/sPorta2.yy",},
     {"name":"Sprite56","order":2,"path":"sprites/Sprite56/Sprite56.yy",},
     {"name":"Sprite58","order":4,"path":"sprites/Sprite58/Sprite58.yy",},
     {"name":"Sprite62","order":8,"path":"sprites/Sprite62/Sprite62.yy",},
