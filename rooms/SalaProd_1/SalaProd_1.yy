@@ -87,6 +87,7 @@
     {"name":"inst_11049361","path":"rooms/SalaProd_1/SalaProd_1.yy",},
     {"name":"inst_7B472737","path":"rooms/SalaProd_1/SalaProd_1.yy",},
     {"name":"inst_6860211F","path":"rooms/SalaProd_1/SalaProd_1.yy",},
+    {"name":"inst_32A6878F","path":"rooms/SalaProd_1/SalaProd_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -147,6 +148,7 @@
         {"$GMRInstance":"","%Name":"inst_63D0A6E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63D0A6E5","objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.375,"scaleY":0.21875,"x":375.0,"y":33.0,},
         {"$GMRInstance":"","%Name":"inst_56959626","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56959626","objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.375,"scaleY":0.21875,"x":481.0,"y":33.0,},
         {"$GMRInstance":"","%Name":"inst_7B472737","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B472737","objectId":{"name":"oPorta1","path":"objects/oPorta1/oPorta1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.15,"scaleY":0.15,"x":430.0,"y":30.0,},
+        {"$GMRInstance":"","%Name":"inst_32A6878F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32A6878F","objectId":{"name":"oSalaMusica","path":"objects/oSalaMusica/oSalaMusica.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":260.0,"y":190.0,},
       ],"layers":[],"name":"WallEntity","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Dialogo","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_2B10D042","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B10D042","objectId":{"name":"oMonster4","path":"objects/oMonster4/oMonster4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":360.0,"y":117.0,},

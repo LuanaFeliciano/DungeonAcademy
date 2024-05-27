@@ -17,6 +17,7 @@
     {"name":"oPorta1","order":17,"path":"objects/oPorta1/oPorta1.yy",},
     {"name":"oPorta2","order":18,"path":"objects/oPorta2/oPorta2.yy",},
     {"name":"oPorta3","order":19,"path":"objects/oPorta3/oPorta3.yy",},
+    {"name":"oSalaMusica","order":20,"path":"objects/oSalaMusica/oSalaMusica.yy",},
     {"name":"oSerpente1","order":8,"path":"objects/oSerpente1/oSerpente1.yy",},
     {"name":"oTanque1","order":2,"path":"objects/oTanque1/oTanque1.yy",},
     {"name":"oTentaculo1","order":3,"path":"objects/oTentaculo1/oTentaculo1.yy",},
