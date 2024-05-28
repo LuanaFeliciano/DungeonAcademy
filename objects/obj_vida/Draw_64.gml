@@ -1,7 +1,7 @@
 var _sprl = sprite_get_width(spr_full_heart) * 2;
 var _buffer = 10;
-var _vida = oPlayer.vida;
-var _max_vida = oPlayer.max_vida;
+var _vida = oMale.vida;
+var _max_vida = oMale.max_vida;
 
 var _count = 0;
 var _frag = 0;
