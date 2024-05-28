@@ -1,5 +1,8 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Female","order":27,"path":"folders/Sprites/Female.yy",},
+    {"name":"Male","order":28,"path":"folders/Sprites/Male.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"oArvoreMorta1","order":10,"path":"objects/oArvoreMorta1/oArvoreMorta1.yy",},
     {"name":"obj_vida","order":22,"path":"objects/obj_vida/obj_vida.yy",},
@@ -14,6 +17,7 @@
     {"name":"oGoblinFace","order":13,"path":"objects/oGoblinFace/oGoblinFace.yy",},
     {"name":"oGosma1","order":1,"path":"objects/oGosma1/oGosma1.yy",},
     {"name":"oLavaFace","order":16,"path":"objects/oLavaFace/oLavaFace.yy",},
+    {"name":"oMale","order":23,"path":"objects/oMale/oMale.yy",},
     {"name":"oMaleFace","order":14,"path":"objects/oMaleFace/oMaleFace.yy",},
     {"name":"oMusicaBoss","order":21,"path":"objects/oMusicaBoss/oMusicaBoss.yy",},
     {"name":"oPorta1","order":17,"path":"objects/oPorta1/oPorta1.yy",},
@@ -42,6 +46,7 @@
     {"name":"sGeiser","order":14,"path":"sprites/sGeiser/sGeiser.yy",},
     {"name":"sGeiser2","order":15,"path":"sprites/sGeiser2/sGeiser2.yy",},
     {"name":"sGosma1","order":6,"path":"sprites/sGosma1/sGosma1.yy",},
+    {"name":"sMaleWalk","order":1,"path":"sprites/sMaleWalk/sMaleWalk.yy",},
     {"name":"sPedraG_Fogo2","order":12,"path":"sprites/sPedraG_Fogo2/sPedraG_Fogo2.yy",},
     {"name":"sPorta1","order":19,"path":"sprites/sPorta1/sPorta1.yy",},
     {"name":"sPorta2","order":20,"path":"sprites/sPorta2/sPorta2.yy",},
