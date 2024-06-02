@@ -24,3 +24,8 @@ Nosso projeto é um jogo com o intuito de introdução a uma nova maneira de apr
 * Executar o arquivo do jogo .exe
   ![image](https://github.com/LuanaFeliciano/DungeonAcademy/assets/112132561/29b2a95a-206c-47b7-b8c7-2ff56a7d4eab)
 
+## Como jogar
+* Ao iniciar, a tecla “Espaço” é usada para passar o diálogo sobre a história.
+* A tecla “F” é utilizada para conversar com o monstro ao se aproximar dele.
+* Conversando com o monstro, clicar com o botão direito do mouse para passar seu diálogo e escolher a alternativa utilizando “W A S D.” Após escolhido a opção, clicar “Enter”.
+* Para andar é utilizado o “W A S D”.
