@@ -29,3 +29,7 @@ Nosso projeto é um jogo com o intuito de introdução a uma nova maneira de apr
 * A tecla “F” é utilizada para conversar com o monstro ao se aproximar dele.
 * Conversando com o monstro, clicar com o botão direito do mouse para passar seu diálogo e escolher a alternativa utilizando “W A S D.” Após escolhido a opção, clicar “Enter”.
 * Para andar é utilizado o “W A S D”.
+
+## Visual
+* Tela Inicial
+![image](https://github.com/LuanaFeliciano/DungeonAcademy/assets/112132561/e845e757-c952-4804-aa99-2c2848867c00)
