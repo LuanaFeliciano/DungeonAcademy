@@ -31,5 +31,23 @@ Nosso projeto é um jogo com o intuito de introdução a uma nova maneira de apr
 * Para andar é utilizado o “W A S D”.
 
 ## Visual
-* Tela Inicial
+* <h1>Tela Inicial</h1>
 ![image](https://github.com/LuanaFeliciano/DungeonAcademy/assets/112132561/e845e757-c952-4804-aa99-2c2848867c00)
+
+* <h1>Cenário 1</h1>
+![Captura de tela 2024-06-02 162418](https://github.com/LuanaFeliciano/DungeonAcademy/assets/98564118/4a4385a9-fc7d-4616-a444-f2990ca4f45d)
+
+* <h1>Cenário 2</h1>
+![Captura de tela 2024-06-02 162532](https://github.com/LuanaFeliciano/DungeonAcademy/assets/98564118/3dc0dc52-1671-4209-be89-6a6095ede1c9)
+
+* <h1>Cenário 3</h1>
+![Captura de tela 2024-06-02 162605](https://github.com/LuanaFeliciano/DungeonAcademy/assets/98564118/6a31b3c3-766b-4d58-8abf-1e2465c96413)
+
+* <h1>Cenário 4</h1>
+![Captura de tela 2024-06-02 162036](https://github.com/LuanaFeliciano/DungeonAcademy/assets/98564118/9f9b1f3d-2958-4e88-8a90-ee5673dd2d52)
+
+
+  
+
+ 
+
