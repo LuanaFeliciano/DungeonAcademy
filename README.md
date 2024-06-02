@@ -1,4 +1,10 @@
-# <h1 align="center"> DungeonAcademy </h1>
+
+# <img width="150px" height="150px" align="right" src="https://github.com/LuanaFeliciano/App-PetCon/assets/98564118/081bf5cf-548d-4835-ad41-809a25d77f1c">  
+<br>
+<br>
+<br>
+<h1 align="center">DungeonAcademy</h1>
+
 * Curso: Análise e Desenvolvimento de Sistemas
 * Equipe:
   * Arthur Cruz Modena
