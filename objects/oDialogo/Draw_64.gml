@@ -52,42 +52,75 @@ if (inicializar == true) {
     draw_text_ext(__text_x, text_y_with_margin, __texto, 16, display_get_gui_width() - 192);
     draw_set_halign(fa_left);
 	
-	   // Adiciona pontuação se a resposta for correta
-       if (textos_grid[# Infos.Acertou, pagina] > 0 && !pontuacao_adicionada) {
+	   //adiciona pontuacao na variavel, se for 0 errou, se for algo diferente de 0 acerto
+    if (textos_grid[# Infos.Acertou, pagina] > 0 && !pontuacao_adicionada) {
         pontuacao =  textos_grid[# Infos.Acertou, pagina]
-        pontuacao_adicionada = true; // Define a flag para evitar adicionar pontuação novamente
+        pontuacao_adicionada = true; //para evitar adicionar pontuação novamente
     }
 			
-    if (op_draw == true) {
-        var _opx = __text_x; // Posição X alinhada com o texto principal
-        var _opy = __rect_y - 140; // Posição Y abaixo do texto principal
-        var _opsep = 48; // Espaçamento entre opções
+	if (op_draw == true) {
+	    var _opx = __text_x; // Posição X alinhada com o texto principal
+	    var _opy = __rect_y - 140; // Posição Y abaixo do texto principal
+	    var _opsep = 48; // Espaçamento entre opções
 
-        op_selecionada += keyboard_check_pressed(ord("S")) - keyboard_check_pressed(ord("W"));
-        op_selecionada = clamp(op_selecionada, 0, op_num - 1);
-        for (var i = 0; i < op_num; i++) {
-            var _stringw = string_width(op[i]);
-            draw_sprite_ext(sBackgroundDialogo, 0, _opx - 7, _opy - 15 + (_opsep * i), _stringw / 10, 1, 0, c_white, 1);
-            draw_text(_opx, _opy + (_opsep * i), op[i]);
+	    //DESENHANo as opcoes com os numeros
+	   for (var i = 0; i < op_num; i++) {//opnum é o numero da opcao (no script q monta isso na op)
+		    var _stringw = string_width(op[i]);//vejo o tamanho da opcao
+		    var option_text = string(i + 1) + ".  " + op[i]; //ADICIONO numero nas opcoes
+			var c_ltblue = make_color_rgb(173, 216, 230);
+			var text_width = string_width(option_text);
+			var text_height = string_height(option_text);
+			
+			//tamanhos dos retangulos das opcoes
+			var rect_left = _opx - 10;
+			var rect_top = _opy + (_opsep * i) - 15;
+			var rect_right = _opx + text_width + 10; //2
+			var rect_bottom = _opy + (_opsep * i) + 15;
+		    var c_light_blue = make_color_rgb(90, 155, 213);
+		    //draw_sprite_ext(sBackgroundDialogo, 0, _opx - 7, _opy - 15 + (_opsep * i), (rect_right - rect_left) / 15, 1, 0, c_white, 1);
 
-            if (op_selecionada == i) {
-                draw_set_halign(0);
-                draw_sprite(sEscolha, 0, 140, _opy + (_opsep * i) - 10);
-            }
-        }
-        if (keyboard_check_pressed(vk_enter)) {
-            var _dialogo = instance_create_layer(x, y, "Instances", oDialogo); // Use a camada "Instances" ou a camada correta
-            _dialogo.npc_nome = op_resposta[op_selecionada];
-            instance_destroy();
-        }
-    }
+		    draw_set_color(c_black);
+		    draw_rectangle(rect_left - 3, rect_top - 3, rect_right + 3, rect_bottom + 3, false);
+
+		     if (op_selecionada == i) {
+			     draw_set_color(c_grey); // Cor azul para a opção selecionada
+			 } else {
+			     draw_set_color(c_white); // Cor cinza claro para as opções não selecionadas
+			 }
+		    draw_rectangle(rect_left, rect_top, rect_right, rect_bottom, true);
+
+		    // Desenha o texto da opção
+		    draw_set_color(c_white);
+		    draw_text(_opx, _opy + (_opsep * i), option_text);
+			
+		    if (op_selecionada == i) {//bolinha da opcao selecionada
+		        draw_set_halign(0);
+		        draw_sprite(sEscolha, 0, _opx - 25, _opy + (_opsep * i) - 10);
+		    }
+		}
+	
+	
+		for (var j = 1; j <= op_num; j++) {
+		    if (keyboard_check_pressed(ord(string(j))) or keyboard_check_pressed(vk_numpad0 + j)) {
+		        op_selecionada = j - 1;  //atualiza a opcao selecionada
+		    }
+		}
+	
+		if (keyboard_check_pressed(vk_enter)) {  //Enter para confirmar
+		    var _dialogo = instance_create_layer(x, y, "Instances", oDialogo);//criando outro dialogo
+		    _dialogo.npc_nome = op_resposta[op_selecionada];//pegando a fala da opcao selecionada
+		    instance_destroy();
+		}
+	}
 }
-if(pontuacao>0 and global.pontoAdicionado == false){
+if(pontuacao>0 and global.pontoAdicionado == false){//controle de quanto acerta a resposta
 	global.pontuacao += pontuacao;
 	global.pontoAdicionado = true
 }
 
 // Desenha a pontuação na tela
-draw_set_font(ftDialogo);
-draw_set_color(c_white);
-draw_text(20, 20, "Pontuação: " + string(global.pontuacao));
+//draw_set_font(ftDialogo);
+//draw_set_color(c_white);
+//draw_text(20, 20, "Pontuação: " + string(global.pontuacao));
+
+
