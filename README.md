@@ -11,7 +11,6 @@
   * Daniel Pontolio Clemente
   * John Anderson Armeni
   * Kevin Nevile de Oliveira
-  * Luis Eduardo de Lima Santana
   * Luana Gomes Feliciano
     
     
