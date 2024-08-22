@@ -58,7 +58,7 @@ if (inicializar == true) {
         pontuacao_adicionada = true; //para evitar adicionar pontuação novamente
     }
 			
-	if (op_draw == true) {
+	if (desenhar_dialogo == true) {
 	    var _opx = __text_x; // Posição X alinhada com o texto principal
 	    var _opy = __rect_y - 140; // Posição Y abaixo do texto principal
 	    var _opsep = 48; // Espaçamento entre opções

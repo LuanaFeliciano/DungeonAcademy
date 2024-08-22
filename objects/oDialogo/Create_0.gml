@@ -17,7 +17,7 @@ op[0] = "";
 op_resposta[0] = "";
 op_num = 0;
 op_selecionada = 0;
-op_draw = false;
+desenhar_dialogo = false;
 
 
 inicializar = false
