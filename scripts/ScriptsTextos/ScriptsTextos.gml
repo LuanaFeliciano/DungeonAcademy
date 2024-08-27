@@ -1,4 +1,5 @@
 function scr_textos(){
+	
 	switch npc_nome{
 		case "Caveira":
 		    ds_grid_add_text("Bem-vindo ao desafio de programação!", sCaveiraFace, oCaveiraFace, 0,"pergunta", "Caveira");
@@ -12,11 +13,13 @@ function scr_textos(){
 		case "OOP":
 		    ds_grid_add_text("Eu escolho Orientação a Objetos", sMaleFace,oMaleFace, 0,"resposta", "Player");
 		    ds_grid_add_text("Você Acertou!", sCaveiraFace,oCaveiraFace, 10,"respostaMonster", "Caveira");
+			audio_play_sound(sRightAnswer, 1, false);
 		break;
 
 		case "Futebol":
 		    ds_grid_add_text("Eu escolho Futebol", sMaleFace,oMaleFace, 0,"resposta", "Player");
 		    ds_grid_add_text("Você Errou! Você realmente pensou que futebol fosse um paradigma de programação?!", sCaveiraFace,oCaveiraFace, 0,"respostaMonster", "Caveira");
+			audio_play_sound(sWrongAnswer, 1, false, 1);
 			oMale.vida = oMale.vida - 0.25;
 		break;
 
@@ -140,3 +143,4 @@ function add_op(_texto, _resposta){
 	
 	op_num++;
 }
+
