@@ -32,12 +32,13 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"DungeonAcademy",
   "resources":[
     {"id":{"name":"ftDialogo","path":"fonts/ftDialogo/ftDialogo.yy",},},
     {"id":{"name":"ftMenu","path":"fonts/ftMenu/ftMenu.yy",},},
+    {"id":{"name":"ftPrompt1","path":"fonts/ftPrompt1/ftPrompt1.yy",},},
     {"id":{"name":"oArvoreMorta1","path":"objects/oArvoreMorta1/oArvoreMorta1.yy",},},
     {"id":{"name":"oBarril1","path":"objects/oBarril1/oBarril1.yy",},},
     {"id":{"name":"oBarril2","path":"objects/oBarril2/oBarril2.yy",},},
@@ -82,6 +83,7 @@
     {"id":{"name":"oPorta1","path":"objects/oPorta1/oPorta1.yy",},},
     {"id":{"name":"oPorta2","path":"objects/oPorta2/oPorta2.yy",},},
     {"id":{"name":"oPorta3","path":"objects/oPorta3/oPorta3.yy",},},
+    {"id":{"name":"oPrompt","path":"objects/oPrompt/oPrompt.yy",},},
     {"id":{"name":"oRato1","path":"objects/oRato1/oRato1.yy",},},
     {"id":{"name":"oSalaMusica","path":"objects/oSalaMusica/oSalaMusica.yy",},},
     {"id":{"name":"oSerpente1","path":"objects/oSerpente1/oSerpente1.yy",},},

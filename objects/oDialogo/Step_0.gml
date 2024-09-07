@@ -2,6 +2,7 @@
 if (!inicializar) {
     scr_textos();
     global.pontoAdicionado = false;
+	global.dialogo = true;
     inicializar = true;
     alarm[0] = 1;
 }
