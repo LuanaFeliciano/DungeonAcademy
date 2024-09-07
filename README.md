@@ -32,7 +32,7 @@ Nosso projeto é um jogo com o intuito de introdução a uma nova maneira de apr
 ## Como jogar
 * Ao iniciar, a tecla “Espaço” é usada para passar o diálogo sobre a história.
 * A tecla “F” é utilizada para conversar com o monstro ao se aproximar dele.
-* Conversando com o monstro, clicar com o botão direito do mouse para passar seu diálogo e escolher a alternativa utilizando “W A S D.” Após escolhido a opção, clicar “Enter”.
+* Conversando com o monstro, clicar com a tecla “F” para passar seu diálogo e escolher a alternativa utilizando os números descritos nas alternativas, Após escolhido a opção clicar “Enter”.
 * Para andar é utilizado o “W A S D”.
 
 ## Visual
