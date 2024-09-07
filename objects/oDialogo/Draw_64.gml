@@ -115,7 +115,7 @@ if (inicializar == true) {
 }
 if(pontuacao>0 and global.pontoAdicionado == false){//controle de quanto acerta a resposta
 	global.pontuacao += pontuacao;
-	global.pontoAdicionado = true
+	global.pontoAdicionado = true;
 }
 
 // Desenha a pontuação na tela
