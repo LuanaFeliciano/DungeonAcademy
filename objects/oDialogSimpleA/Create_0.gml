@@ -4,6 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
+dialog.add(sCharacter, "Pressione Espaco para continuar");
 dialog.add(sCharacter, "Ola aventureiro, se perguntando como veio parar aqui?");
 dialog.add(sCharacter, "Bom, este e um mundo de sobrevivencia e exploracao");
 dialog.add(sCharacter, "como pode ver tem um monstro em sua frente");
