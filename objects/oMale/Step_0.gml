@@ -5,19 +5,39 @@ if (!global.dialogo) {
     if (keyboard_check(ord("W")) && place_free(x, y - col)) {
         y -= spd;
         audio_play_sound(sWalk, 1, false);
+		sprite_index = sHeroMRunning;		
     }
     if (keyboard_check(ord("A")) && place_free(x - col, y)) {
         x -= spd;
+		if (image_xscale != -1) { // Apenas espelha se necessário
+            image_xscale = -0.06; // Virar para a esquerda
+        }
         audio_play_sound(sWalk, 1, false);
+		sprite_index = sHeroMRunning;
     }
     if (keyboard_check(ord("S")) && place_free(x, y + col)) {
         y += spd;
         audio_play_sound(sWalk, 1, false);
+		sprite_index = sHeroMRunning;
     }
     if (keyboard_check(ord("D")) && place_free(x + col, y)) {
         x += spd;
+		if (image_xscale != 1) { // Apenas desfaz o espelhamento se necessário
+            image_xscale = 0.06; // Virar para a direita
+        }
         audio_play_sound(sWalk, 1, false);
+		sprite_index = sHeroMRunning;
     }
+} else {
+    sprite_index = sHeroMBreathing; // Parado
+    image_xscale = 0.06; // Mantenha a escala padrão
+    image_yscale = 0.06; // Mantenha a escala vertical
+}
+
+if (!keyboard_check(vk_anykey)) {
+    sprite_index = sHeroMBreathing; // Parado se nenhuma tecla for pressionada
+    image_xscale = 0.06; // Certifique-se de que o escalonamento permaneça correto
+    image_yscale = 0.06; // Garantir que a escala vertical não seja alterada
 }
 
 function esconderPrompt(){
@@ -57,4 +77,3 @@ if distance_to_object(oParNpcs) <= 10 { // tem algum NPC perto?
     esconderPrompt();
 }
 #endregion
-

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sMaleStand",
-    "path":"sprites/sMaleStand/sMaleStand.yy",
+    "name":"sHeroMBreathing",
+    "path":"sprites/sHeroMBreathing/sHeroMBreathing.yy",
   },
   "spriteMaskId":null,
   "visible":true,
