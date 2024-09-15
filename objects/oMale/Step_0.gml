@@ -1,44 +1,71 @@
 
 
-
 if (!global.dialogo) {
-    if (keyboard_check(ord("W")) && place_free(x, y - col)) {
+    var _moving = false; // Variável que verifica se está se movendo
+
+    if (keyboard_check_direct(ord("W")) && place_free(x, y - col)) {
         y -= spd;
-        audio_play_sound(sWalk, 1, false);
-		sprite_index = sHeroMRunning;		
+        sprite_index = sHeroMRunning;
+        _moving = true;
     }
-    if (keyboard_check(ord("A")) && place_free(x - col, y)) {
+    if (keyboard_check_direct(ord("A")) && place_free(x - col, y)) {
         x -= spd;
-		if (image_xscale != -1) { // Apenas espelha se necessário
+        if (image_xscale != -1) {
             image_xscale = -0.06; // Virar para a esquerda
         }
-        audio_play_sound(sWalk, 1, false);
-		sprite_index = sHeroMRunning;
+        _moving = true;
+        sprite_index = sHeroMRunning;
     }
-    if (keyboard_check(ord("S")) && place_free(x, y + col)) {
-        y += spd;
-        audio_play_sound(sWalk, 1, false);
-		sprite_index = sHeroMRunning;
+    if (keyboard_check_direct(ord("S")) && place_free(x, y + col)) {
+        y += spd; 
+        sprite_index = sHeroMRunning;
+        _moving = true;
     }
-    if (keyboard_check(ord("D")) && place_free(x + col, y)) {
+    if (keyboard_check_direct(ord("D")) && place_free(x + col, y)) {
         x += spd;
-		if (image_xscale != 1) { // Apenas desfaz o espelhamento se necessário
-            image_xscale = 0.06; // Virar para a direita
+        if (image_xscale != 1) {
+            image_xscale = 0.06; // Virar para a direita	
         }
-        audio_play_sound(sWalk, 1, false);
-		sprite_index = sHeroMRunning;
+        _moving = true;
+        sprite_index = sHeroMRunning;
+    }
+
+    // Controle de som
+    if (_moving) {
+        if (!sound_playing) { // Só toca o som se não estiver tocando
+            audio_play_sound(snd_walking, 10, true, 50); // true para tocar em loop
+            sound_playing = true;
+        }
+    } else {
+        if (sound_playing) { // Se não está se movendo, para o som
+            audio_stop_sound(snd_walking);
+            sound_playing = false;
+        }
+        sprite_index = sHeroMBreathing; // Parado
+        image_xscale = 0.06; // Mantenha a escala padrão
+        image_yscale = 0.06;
     }
 } else {
     sprite_index = sHeroMBreathing; // Parado
     image_xscale = 0.06; // Mantenha a escala padrão
-    image_yscale = 0.06; // Mantenha a escala vertical
+    image_yscale = 0.06;
+    if (sound_playing) { // Se o diálogo interromper o movimento, para o som também
+        audio_stop_sound(snd_walking);
+        sound_playing = false;
+    }
 }
 
+// Verifica se não há teclas pressionadas
 if (!keyboard_check(vk_anykey)) {
-    sprite_index = sHeroMBreathing; // Parado se nenhuma tecla for pressionada
-    image_xscale = 0.06; // Certifique-se de que o escalonamento permaneça correto
-    image_yscale = 0.06; // Garantir que a escala vertical não seja alterada
+    sprite_index = sHeroMBreathing;
+    image_xscale = 0.06; 
+    image_yscale = 0.06; 
+    if (sound_playing) { // Para o som se nenhuma tecla for pressionada
+        audio_stop_sound(snd_walking);
+        sound_playing = false;
+    }
 }
+
 
 function esconderPrompt(){
 	var _prompt = instance_find(oPrompt,0);

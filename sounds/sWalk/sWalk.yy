@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":1.227755,
+  "duration":1.151429,
   "name":"sWalk",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sWalk.mp3",
+  "soundFile":"sWalk.wav",
   "type":1,
   "volume":1.0,
 }

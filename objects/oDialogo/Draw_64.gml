@@ -116,6 +116,15 @@ if (inicializar == true) {
 if(pontuacao>0 and global.pontoAdicionado == false){//controle de quanto acerta a resposta
 	global.pontuacao += pontuacao;
 	global.pontoAdicionado = true;
+	audio_play_sound(sRightAnswer, 1, false);
+}
+ 
+var tipo = textos_grid[# Infos.Textos,pagina];
+
+if(tipo == "respostaMonster" and pontuacao==0 and global.pontoAdicionado == false){//controle de quanto acerta a resposta
+	global.pontuacao -= pontuacao;
+	global.pontoAdicionado = true;
+	audio_play_sound(sWrongAnswer, 1, false);
 }
 
 // Desenha a pontuação na tela
