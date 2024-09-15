@@ -107,6 +107,7 @@
     {"id":{"name":"sBossSong","path":"sounds/sBossSong/sBossSong.yy",},},
     {"id":{"name":"sHit","path":"sounds/sHit/sHit.yy",},},
     {"id":{"name":"sLoseTheme","path":"sounds/sLoseTheme/sLoseTheme.yy",},},
+    {"id":{"name":"snd_walking","path":"sounds/snd_walking/snd_walking.yy",},},
     {"id":{"name":"sRightAnswer","path":"sounds/sRightAnswer/sRightAnswer.yy",},},
     {"id":{"name":"sTap","path":"sounds/sTap/sTap.yy",},},
     {"id":{"name":"sThemeRoom","path":"sounds/sThemeRoom/sThemeRoom.yy",},},

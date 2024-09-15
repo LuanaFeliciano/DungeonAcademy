@@ -35,6 +35,7 @@
     {"name":"sBossSong","order":2,"path":"sounds/sBossSong/sBossSong.yy",},
     {"name":"sHit","order":8,"path":"sounds/sHit/sHit.yy",},
     {"name":"sLoseTheme","order":5,"path":"sounds/sLoseTheme/sLoseTheme.yy",},
+    {"name":"snd_walking","order":9,"path":"sounds/snd_walking/snd_walking.yy",},
     {"name":"sRightAnswer","order":6,"path":"sounds/sRightAnswer/sRightAnswer.yy",},
     {"name":"sThemeRoom","order":1,"path":"sounds/sThemeRoom/sThemeRoom.yy",},
     {"name":"sWalk","order":3,"path":"sounds/sWalk/sWalk.yy",},
