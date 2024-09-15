@@ -2,7 +2,7 @@
 
 
 if (!global.dialogo) {
-    if (keyboard_check(ord("W")) && place_free(x, y - col)) {
+	if (keyboard_check(ord("W")) && place_free(x, y - col)) {
         y -= spd;
 		sprite_index = sHeroMRunning;
 		
