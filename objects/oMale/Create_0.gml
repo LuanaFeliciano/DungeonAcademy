@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-spd = 2;
+spd = 1;
 col = spd + 0;
 
 max_vida = 10

@@ -4,28 +4,27 @@
 if (!global.dialogo) {
     if (keyboard_check(ord("W")) && place_free(x, y - col)) {
         y -= spd;
-        audio_play_sound(sWalk, 1, false);
-		sprite_index = sHeroMRunning;		
+		sprite_index = sHeroMRunning;
+		
     }
     if (keyboard_check(ord("A")) && place_free(x - col, y)) {
         x -= spd;
 		if (image_xscale != -1) { // Apenas espelha se necessário
             image_xscale = -0.06; // Virar para a esquerda
         }
-        audio_play_sound(sWalk, 1, false);
 		sprite_index = sHeroMRunning;
     }
     if (keyboard_check(ord("S")) && place_free(x, y + col)) {
-        y += spd;
-        audio_play_sound(sWalk, 1, false);
+        y += spd; 
 		sprite_index = sHeroMRunning;
+		
     }
     if (keyboard_check(ord("D")) && place_free(x + col, y)) {
         x += spd;
 		if (image_xscale != 1) { // Apenas desfaz o espelhamento se necessário
             image_xscale = 0.06; // Virar para a direita
+			
         }
-        audio_play_sound(sWalk, 1, false);
 		sprite_index = sHeroMRunning;
     }
 } else {
