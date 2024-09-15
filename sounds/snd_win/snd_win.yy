@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"sWinTheme",
+  "%Name":"snd_win",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":1,
+  "compression":0,
   "conversionMode":0,
-  "duration":3.030204,
-  "name":"sWinTheme",
+  "duration":2.342472,
+  "name":"snd_win",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sWinTheme.mp3",
+  "soundFile":"snd_win.ogg",
   "type":0,
   "volume":1.0,
 }
