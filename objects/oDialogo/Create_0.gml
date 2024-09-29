@@ -1,16 +1,14 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-enum Infos{
-	Textos,
-	Retrato,
-	Animacao_Retrato,
-	Acertou,
-	Tipo,
-	Nome
+enum Infos {
+    Textos,
+    Retrato,
+    Animacao_Retrato,
+    Acertou,
+    Tipo,
+    Nome
 }
+
 npc_nome = "";
-textos_grid = ds_grid_create(5,0);
+textos_grid = ds_grid_create(5, 0);
 pagina = 0;
 
 op[0] = "";
@@ -19,9 +17,11 @@ op_num = 0;
 op_selecionada = 0;
 desenhar_dialogo = false;
 
-
-inicializar = false
+inicializar = false;
 
 caractere = 0;
-alarm[0] = 1;
-
+tempo_restante = 80 * room_speed; // 80 segundos em room_steps
+global.pontoAdicionado = false;
+global.dialogo = false; // Inicializa o diálogo como falso
+// Evento Create
+mostrar_temporizador = true; // Variável para controlar a exibição do temporizador
