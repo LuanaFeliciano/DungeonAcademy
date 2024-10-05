@@ -128,6 +128,11 @@ if (pontuacao > 0 and global.pontoAdicionado == false) { // controle de quanto a
     global.pontuacao += pontuacao;
     global.pontoAdicionado = true;
     audio_play_sound(snd_win, 1, false, 50);
+	
+	var nomeMonstro = textos_grid[# Infos.Nome, pagina];
+	if(nomeMonstro == "Lava") {
+		enviar_ranking()
+	}
 }
 
 var tipo = textos_grid[# Infos.Tipo, pagina];
@@ -136,6 +141,11 @@ if (tipo == "respostaMonster" and pontuacao == 0 and global.pontoAdicionado == f
     global.pontuacao -= pontuacao;
     global.pontoAdicionado = true;
     audio_play_sound(sWrongAnswer, 1, false, 50);
+	
+	var nomeMonstro = textos_grid[# Infos.Nome, pagina];
+	if(nomeMonstro == "Lava") {
+		enviar_ranking()
+	}
 }
 
 // Desenha a pontuação na tela
