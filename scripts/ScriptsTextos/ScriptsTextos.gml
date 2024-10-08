@@ -28,31 +28,32 @@ function scr_textos(){
 		break;
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		
-		case "Goblin":
-		    ds_grid_add_text("Bem-vindo ao desafio tecnológico!", sGoblinFace,oGoblinFace, 0,"pergunta", "Goblin");
-		    ds_grid_add_text("Qual destes é um protocolo de comunicação de rede?", sGoblinFace,oGoblinFace, 0,"pergunta", "Goblin");
+			case "Goblin":
+			    ds_grid_add_text("Bem-vindo ao desafio tecnológico!", sGoblinFace, oGoblinFace, 0, "pergunta", "Goblin");
+			    ds_grid_add_text("Qual destes é um tipo de sistema operacional baseado em DOS?", sGoblinFace, oGoblinFace, 0, "pergunta", "Goblin");
 
-		    add_op("TCP", "TCP");
-		    add_op("HTTP", "HTTP");
-		    add_op("FTP", "FTP");
-		break;
-
-			case "TCP":
-			    ds_grid_add_text("Eu escolho TCP", sMaleFace,oMaleFace, 0,"resposta", "Player");
-			    ds_grid_add_text("Você Acertou!", sGoblinFace,oGoblinFace, 10,"respostaMonster", "Goblin");
+			    add_op("Windows", "Windows");
+			    add_op("Linux", "Linux");
+			    add_op("Oracle", "Oracle");
 			break;
 
-			case "HTTP":
-			    ds_grid_add_text("Eu escolho HTTP", sMaleFace,oMaleFace, 0,"resposta", "Player");
-			    ds_grid_add_text("Você Errou! Mas pelo menos você não foi para o FTP!", sGoblinFace,oGoblinFace, 0,"respostaMonster", "Goblin");
-				oMale.vida = oMale.vida - 0.5;
+			case "Windows":
+			    ds_grid_add_text("Eu escolho Windows", sMaleFace, oMaleFace, 0, "resposta", "Player");
+			    ds_grid_add_text("Você Acertou!", sGoblinFace, oGoblinFace, 10, "respostaMonster", "Goblin");
 			break;
 
-			case "FTP":
-			    ds_grid_add_text("Eu escolho FTP", sMaleFace,oMaleFace, 0,"resposta", "Player");
-			    ds_grid_add_text("Você Errou e foi muito lerdão de escolher FTP!  ", sGoblinFace,oGoblinFace, 0,"respostaMonster", "Goblin");
-				oMale.vida = oMale.vida - 0.5;
+			case "Linux":
+			    ds_grid_add_text("Eu escolho Linux", sMaleFace, oMaleFace, 0, "resposta", "Player");
+			    ds_grid_add_text("Você Errou!", sGoblinFace, oGoblinFace, 0, "respostaMonster", "Goblin");
+				 oMale.vida = oMale.vida - 0.5;
 			break;
+
+			case "Oracle":
+			    ds_grid_add_text("Eu escolho Oracle", sMaleFace, oMaleFace, 0, "resposta", "Player");
+			    ds_grid_add_text("Você Errou! Oracle não é um sistema operacional!", sGoblinFace, oGoblinFace, 0, "respostaMonster", "Goblin");
+			    oMale.vida = oMale.vida - 0.5;
+			break;
+
 			
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 			case "Cérebro":
