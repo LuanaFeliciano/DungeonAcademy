@@ -29,6 +29,6 @@ mostrar_temporizador = true; // Variável para controlar a exibição do tempori
 
 function enviar_ranking(){
 	show_debug_message("ENTROU AQUI");
-	var _str = $"nome=Luana&pontuacao={global.pontuacao}";
+	var _str = $"nome=Luana&pontuacao={global.pontuacao}&genero=f";
 	global.request_ranking = http_post_string("http://127.0.0.1:8000/api/ranking", _str);
 }
