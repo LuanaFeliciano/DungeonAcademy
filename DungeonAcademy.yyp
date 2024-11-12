@@ -74,6 +74,7 @@
     {"id":{"name":"oMorcego1","path":"objects/oMorcego1/oMorcego1.yy",},},
     {"id":{"name":"oMusicaBoss","path":"objects/oMusicaBoss/oMusicaBoss.yy",},},
     {"id":{"name":"oParNpcs","path":"objects/oParNpcs/oParNpcs.yy",},},
+    {"id":{"name":"oPause","path":"objects/oPause/oPause.yy",},},
     {"id":{"name":"oPedra_Musgo1","path":"objects/oPedra_Musgo1/oPedra_Musgo1.yy",},},
     {"id":{"name":"oPedra_Musgo2","path":"objects/oPedra_Musgo2/oPedra_Musgo2.yy",},},
     {"id":{"name":"oPedraG_Fogo1","path":"objects/oPedraG_Fogo1/oPedraG_Fogo1.yy",},},
