@@ -1,4 +1,4 @@
-
+if (global.pause) exit;
 
 if (!global.dialogo) {
     var _moving = false; // Variável que verifica se está se movendo

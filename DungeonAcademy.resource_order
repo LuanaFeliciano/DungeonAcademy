@@ -22,6 +22,7 @@
     {"name":"oMale","order":23,"path":"objects/oMale/oMale.yy",},
     {"name":"oMaleFace","order":14,"path":"objects/oMaleFace/oMaleFace.yy",},
     {"name":"oMusicaBoss","order":21,"path":"objects/oMusicaBoss/oMusicaBoss.yy",},
+    {"name":"oPause","order":26,"path":"objects/oPause/oPause.yy",},
     {"name":"oPorta1","order":17,"path":"objects/oPorta1/oPorta1.yy",},
     {"name":"oPorta2","order":18,"path":"objects/oPorta2/oPorta2.yy",},
     {"name":"oPorta3","order":19,"path":"objects/oPorta3/oPorta3.yy",},
