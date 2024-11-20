@@ -1,9 +1,9 @@
 if (showing_dialog == true) {
-    var text_x;
-    var text_y;
+    var text_x = 0;
+    var text_y = 50;
     var height = 32;
     var border = 5;
-    var padding = 40;
+    var padding = 30;
     
     height = string_height(current_dialog.message);
     
@@ -11,9 +11,9 @@ if (showing_dialog == true) {
         height = sprite_get_height(current_dialog.sprite);
     }
     
-    height += padding * 2;
-    text_x = (display_get_gui_width() - string_width(current_dialog.message)) / 2; // Centralizando horizontalmente
-    text_y = 90; // Posicionando abaixo do quadrado do personagem
+    height += padding;
+    text_x = (display_get_gui_width() - string_width(current_dialog.message)) / 3; // Centralizando horizontalmente
+   
     
     draw_set_alpha(alpha);
     
@@ -31,7 +31,7 @@ if (showing_dialog == true) {
     }
     
     draw_set_color(c_white);
-    draw_text_ext(text_x, text_y, current_dialog.message, 16, display_get_gui_width() - 192);
+    draw_text_ext(text_x, text_y, current_dialog.message, 20, display_get_gui_width());
     
     alpha = lerp(alpha, 1, 0.06);
     

@@ -2,14 +2,20 @@ if (global.pause) exit;
 
 if (!global.dialogo) {
     var _moving = false; // Variável que verifica se está se movendo
+    var spd_actual = spd; // Velocidade normal
+
+    // Verifica se a tecla de corrida (Shift) está pressionada
+    if (keyboard_check(vk_shift)) {
+        spd_actual = spd * 2; // Aumenta a velocidade se a tecla Shift estiver pressionada
+    }
 
     if (keyboard_check_direct(ord("W")) && place_free(x, y - col)) {
-        y -= spd;
+        y -= spd_actual;
         sprite_index = sHeroMRunning;
         _moving = true;
     }
     if (keyboard_check_direct(ord("A")) && place_free(x - col, y)) {
-        x -= spd;
+        x -= spd_actual;
         if (image_xscale != -1) {
             image_xscale = -0.06; // Virar para a esquerda
         }
@@ -17,14 +23,14 @@ if (!global.dialogo) {
         sprite_index = sHeroMRunning;
     }
     if (keyboard_check_direct(ord("S")) && place_free(x, y + col)) {
-        y += spd; 
+        y += spd_actual; 
         sprite_index = sHeroMRunning;
         _moving = true;
     }
     if (keyboard_check_direct(ord("D")) && place_free(x + col, y)) {
-        x += spd;
+        x += spd_actual;
         if (image_xscale != 1) {
-            image_xscale = 0.06; // Virar para a direita	
+            image_xscale = 0.06; // Virar para a direita    
         }
         _moving = true;
         sprite_index = sHeroMRunning;
@@ -65,6 +71,7 @@ if (!keyboard_check(vk_anykey)) {
         sound_playing = false;
     }
 }
+
 
 
 function esconderPrompt(){

@@ -57,6 +57,7 @@
     {"name":"sMaleWalk","order":1,"path":"sprites/sMaleWalk/sMaleWalk.yy",},
     {"name":"sNewHeroF","order":1,"path":"sprites/sNewHeroF/sNewHeroF.yy",},
     {"name":"sNewHeroM","order":2,"path":"sprites/sNewHeroM/sNewHeroM.yy",},
+    {"name":"sOldMale","order":5,"path":"sprites/sOldMale/sOldMale.yy",},
     {"name":"sPedraG_Fogo2","order":12,"path":"sprites/sPedraG_Fogo2/sPedraG_Fogo2.yy",},
     {"name":"sPorta1","order":19,"path":"sprites/sPorta1/sPorta1.yy",},
     {"name":"sPorta2","order":20,"path":"sprites/sPorta2/sPorta2.yy",},
