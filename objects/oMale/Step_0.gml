@@ -82,7 +82,7 @@ function esconderPrompt(){
 }
 
 #region
-if distance_to_object(oParNpcs) <= 10 { // tem algum NPC perto?
+if distance_to_object(oParNpcs) <= 20 { // tem algum NPC perto?
     var _npc = instance_nearest(x, y, oParNpcs); //acha o NPC proximo e pega a instncia dele
     
     if (!_npc.conversa) {
