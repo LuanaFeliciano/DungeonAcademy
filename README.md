@@ -35,6 +35,7 @@ Nosso projeto é um jogo com o intuito de introdução a uma nova maneira de apr
 * Conversando com o monstro, clicar com a tecla “F” para passar seu diálogo e escolher a alternativa utilizando os números descritos nas alternativas, Após escolhido a opção clicar “Enter”.
 * Para andar é utilizado o “W A S D”.
 * Apertar shift para correr.
+* Esc para pausar
 
 ## Visual
 * <h1>Tela Inicial</h1>
