@@ -66,18 +66,18 @@ function scr_textos(){
 			break;
 
 				case "Desempenho":
-				    ds_grid_add_text("Eu escolho Desempenho do sistema", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Eu escolho Desempenho do sistema", oMaleFace,oMaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Acertou!", sCerebroFace,oCerebroFace, 10,"respostaMonster", "Cérebro");
 				break;
 
 				case "Login":
-				    ds_grid_add_text("Eu escolho Funcionalidade de login", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Eu escolho Funcionalidade de login", oMaleFace,oMaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Errou feio agora em! Mas pelo menos não foi uma funcionalidade de salvar...", sCerebroFace,oCerebroFace, 0,"respostaMonster", "Cérebro");
 					oMale.vida = oMale.vida - 0.75;
 				break;
 
 				case "Salvar":
-				    ds_grid_add_text("Eu escolho Funcionalidade de salvar dados", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Eu escolho Funcionalidade de salvar dados", oMaleFace,oMaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Errou! Salvando o dia com respostas erradas...", sCerebroFace,oCerebroFace, 0,"respostaMonster", "Cérebro");
 					oMale.vida = oMale.vida - 0.75;
 				break;
@@ -93,18 +93,18 @@ function scr_textos(){
 			break;
 
 				case "Bluetooth":
-				    ds_grid_add_text("Eu escolho Bluetooth", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Eu escolho Bluetooth", oMaleFace,oMaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Acertou! O Bluetooth é uma tecnologia de comunicação sem fio.", sLavaFace,oLavaFace, 10,"respostaMonster", "Lava");
 				break;
 
 				case "USB":
-				    ds_grid_add_text("Eu escolho USB", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Eu escolho USB", oMaleFace,oMaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Errou! USB é uma tecnologia de conexão com fio. Você nunca carregou seu celular?", sLavaFace,oLavaFace, 0,"respostaMonster", "Lava");
 					oMale.vida = oMale.vida - 1.5;
 				break;
 
 				case "HDMI":
-				    ds_grid_add_text("Eu escolho HDMI", sFemaleFace,oFemaleFace, 0,"resposta", "Player");
+				    ds_grid_add_text("Eu escolho HDMI", oMaleFace,oMaleFace, 0,"resposta", "Player");
 				    ds_grid_add_text("Você Errou! HDMI é uma interface de vídeo, não uma tecnologia de comunicação sem fio. Você está nos tempos das cavernas? Porque está parecendo", sLavaFace,oLavaFace, 0,"respostaMonster", "Lava");
 					oMale.vida = oMale.vida - 1.5;
 				break;
