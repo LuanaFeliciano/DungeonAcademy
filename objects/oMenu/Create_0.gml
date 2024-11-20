@@ -1,3 +1,4 @@
+audio_stop_all();
 opcoes = ["START", "EXIT"];
 index = 0;
 
