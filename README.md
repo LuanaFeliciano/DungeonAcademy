@@ -27,7 +27,7 @@ Nosso projeto é um jogo com o intuito de introdução a uma nova maneira de apr
 * Baixar arquivo .zip
 * Descompactar o .zip
 * Executar o arquivo do jogo .exe
-  ![image](https://github.com/LuanaFeliciano/DungeonAcademy/assets/112132561/29b2a95a-206c-47b7-b8c7-2ff56a7d4eab)
+ <!-- ![image](https://github.com/LuanaFeliciano/DungeonAcademy/assets/112132561/29b2a95a-206c-47b7-b8c7-2ff56a7d4eab) -->
 
 ## Como jogar
 * Ao iniciar, a tecla “Espaço” é usada para passar o diálogo sobre a história.
@@ -39,7 +39,7 @@ Nosso projeto é um jogo com o intuito de introdução a uma nova maneira de apr
 
 ## Visual
 * <h1>Tela Inicial</h1>
-![image](https://github.com/LuanaFeliciano/DungeonAcademy/assets/112132561/e845e757-c952-4804-aa99-2c2848867c00)
+ ![image](https://github.com/LuanaFeliciano/DungeonAcademy/assets/112132561/e845e757-c952-4804-aa99-2c2848867c00)
 
 * <h1>Cenário 1</h1>
 ![1](https://github.com/user-attachments/assets/98c6b225-c7c6-4216-8dd3-8e0236597751)
