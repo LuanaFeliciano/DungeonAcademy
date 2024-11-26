@@ -42,16 +42,16 @@ Nosso projeto é um jogo com o intuito de introdução a uma nova maneira de apr
 ![image](https://github.com/LuanaFeliciano/DungeonAcademy/assets/112132561/e845e757-c952-4804-aa99-2c2848867c00)
 
 * <h1>Cenário 1</h1>
-![Captura de tela 2024-06-02 162418](https://github.com/LuanaFeliciano/DungeonAcademy/assets/98564118/4a4385a9-fc7d-4616-a444-f2990ca4f45d)
+![1](https://github.com/user-attachments/assets/98c6b225-c7c6-4216-8dd3-8e0236597751)
 
 * <h1>Cenário 2</h1>
-![Captura de tela 2024-06-02 162532](https://github.com/LuanaFeliciano/DungeonAcademy/assets/98564118/3dc0dc52-1671-4209-be89-6a6095ede1c9)
+![2](https://github.com/user-attachments/assets/b3674568-c1cf-487e-b173-8d328f71642e)
 
 * <h1>Cenário 3</h1>
-![Captura de tela 2024-06-02 162605](https://github.com/LuanaFeliciano/DungeonAcademy/assets/98564118/6a31b3c3-766b-4d58-8abf-1e2465c96413)
+![3](https://github.com/user-attachments/assets/de70dc67-a24d-4986-98ad-eafce068f9a3)
 
 * <h1>Cenário 4</h1>
-![Captura de tela 2024-06-02 162036](https://github.com/LuanaFeliciano/DungeonAcademy/assets/98564118/9f9b1f3d-2958-4e88-8a90-ee5673dd2d52)
+![4](https://github.com/user-attachments/assets/eee86749-b9da-4392-a3c1-77a6939ab859)
 
 
   
