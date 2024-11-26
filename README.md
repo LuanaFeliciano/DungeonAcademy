@@ -17,8 +17,8 @@
 ## 📋 Descrição
 Nosso projeto é um jogo com o intuito de introdução a uma nova maneira de aprendizado, utilizando de meios de entretenimento e diversão de um jogo com o estudo de matérias diversas de uma instituição de ensino.
 
-<!--## Link de Download
-[Link Drive](https://drive.google.com/file/d/1HU7V3UVFw_F10DL2uNGHiL6PuByKU3uB/view?usp=drive_link) -->
+## Link de Download
+[Link Drive](https://drive.google.com/file/d/1GgXYDSTZefonx2gC-77tFL26QGvUri7X/view?usp=sharing)
 
 ## 👩🏽‍💻 IDE utilizada
 * [GameMaker](https://gamemaker.io/), facilita a criação de jogos, independentemente do nível de habilidade. Tudo que você precisa é de uma ideia!.
